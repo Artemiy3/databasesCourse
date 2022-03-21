@@ -1,0 +1,53 @@
+Computer:
+key: string serialNumber
+attributes: string processor, int RAM, int hardDrive
+
+Mouse:
+key: string serialNumber
+attributes: int signalfrecuency
+
+Monitor:
+key: string serialNumber
+attributes: int resolution
+
+Keyboard:
+key: string serialNumber
+attributes: int responseTime
+
+Accessory:
+key: string serialNumber
+attributes: int cost
+
+Laptop:
+key: string serialNumber
+attributes: string processor, int RAM, int hardDrive, int resolution
+
+Desktop:
+key: string serialNumber
+attributes: string processor, int RAM, int hardDrive
+
+Memory:
+key: string serialNumber
+attributes: int volume, boolean isSSD
+
+SoundCard:
+key: string serialNumber
+attributes: int soundQuality
+
+VideoCard:
+key: string serialNumber
+attributes: int memory, int frecuency
+
+Component:
+key: string serialNumber
+attributes: int cost, string compatibleProcessor
+
+Software:
+key: version
+attributes: boolean isFree, int [] compatibleWithFrecuencies
+
+OperatingSystem:
+key: generation
+attributes: string name, int frecuency
+
+The diagram represents computer and it's attributes, possible things to happen with it, and relationships of computer with related entities.
