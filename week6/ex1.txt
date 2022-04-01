@@ -1,0 +1,19 @@
+1) 
+SELECT sname
+FROM suppliers, parts, catalog
+WHERE color = 'red' AND catalog.pid = parts.pid AND catalog.sid = suppliers.sid;
+
+2)
+SELECT sid
+FROM suppliers, parts, catalog
+WHERE (color = 'red' OR color = 'green') AND catalog.pid = parts.pid AND catalog.sid = suppliers.sid;
+
+3)
+SELECT sid
+FROM suppliers, parts, catalog
+WHERE (color = 'red' OR address = '221 Packer Street') AND catalog.pid = parts.pid AND catalog.sid = suppliers.sid;
+
+4)
+SELECT sid
+FROM suppliers, parts, catalog
+WHERE (color = 'red' OR address = '221 Packer Street') AND catalog.pid = parts.pid AND catalog.sid = suppliers.sid;
