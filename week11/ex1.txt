@@ -1,0 +1,8 @@
+def quieryAllIndianCuisines()
+  return db.find({"cuisine": "Indian"})
+
+def quieryAllIndianAndThaiCuisines()
+  return db.find({"cuisine": "Indian", "cuisine": "Thai"})
+  
+def findRestaurant()
+  return db.find({"address": "1115 Rogers Avenue, 11226"})
